@@ -269,12 +269,12 @@ body { font-family: sans-serif }
 	.menu-desktop-dark .item-menu ul li a { color: white }
 
 	.menu-desktop-dark .item-menu ul li a.btn-solid { 
-		background-color: #131313; color:#ababab;
+		background-color: #716f6f; color:#25282a;
 	}
 
 	.menu-desktop-dark .item-menu ul li a.btn-solid:hover, 
 	.menu-desktop-dark .item-menu ul li a.btn-solid:active { 
-		background-color: #716f6f; color:#25282a;
+		background-color: #131313; color:#ababab;
 	}
 
 	/*== Light desktop menu == */
