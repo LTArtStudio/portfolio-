@@ -39,7 +39,8 @@ body { font-family: sans-serif }
 		display: block; 
 		margin-left: 10px;
 		margin-top: 9px;
-		margin-bottom: 9px 
+		margin-bottom: 9px;
+		width:20%;
 	}
 
 	/* Hamburger icon */
@@ -122,27 +123,27 @@ body { font-family: sans-serif }
 
 
 	/*== Dark mobile menu == */
-	.menu-mobile-dark { background-color: #25282a}
+	.menu-mobile-dark { background-color: #ffffff}
 
 	.menu-mobile-dark .item-icon .bar1, 
 	.menu-mobile-dark .item-icon .bar2, 
 	.menu-mobile-dark .item-icon .bar3 {
-		background-color:#5eb0e5 ;
+		background-color:#ffffff ;
 	}
 
-	.menu-mobile-dark li a { color: #5eb0e5}
+	.menu-mobile-dark li a { color: transparent}
 
 	.menu-mobile-dark li a.btn-solid { 
-		background-color:#25282a; border-color: #5eb0e5; color:#5eb0e5;
+		background-color:transparent; border-color: #ffffff; color:#ffffff;
 	}
 
 	.menu-mobile-dark li a.btn-solid:hover, 
 	.menu-mobile-dark li a.btn-solid:active { 
-		background-color: #5eb0e5; color:#25282a;
+		background-color: #000000; color:#ffffff;
 	}
 
 	/*== Light mobile menu == */
-	.menu-mobile-light { background-color: #fff; box-shadow: 0px 1px 10px #888  }
+	.menu-mobile-light { background-color: #ffffff; box-shadow: 0px 1px 10px #888  }
 
 	.menu-mobile-light .item-icon .bar1, 
 	.menu-mobile-light .item-icon .bar2, 
@@ -198,7 +199,7 @@ body { font-family: sans-serif }
 	}
 
 	/* Logo */
-	.container-menu-desktop .item-logo img { display: block; margin-left: 8px }
+	.container-menu-desktop .item-logo img { display: block; margin-left: 8px, width:20%; }
 
 	/* Menu options */
 	.container-menu-desktop .item-menu ul { text-align: right }
