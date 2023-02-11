@@ -472,7 +472,7 @@ body { font-family: sans-serif }
 	font-weight: bold; 
 	color: #25282a;
 	line-height: 1.1;
-	font-size: calc(22px + (28 - 20) * ((100vw - 320px) / (1600 - 320))); 
+	font-size: calc(18px + (28 - 16) * ((100vw - 320px) / (1600 - 320))); 
 }
 
 .flex-grid-three p { 
@@ -527,14 +527,14 @@ body { font-family: sans-serif }
 	text-decoration: none; 
 	text-align:center; 
 	display:inline-block;
-	font-size: calc(14px + (15 - 14) * ((100vw - 320px) / (1600 - 320))); 
+	font-size: calc(10px + (15 - 14) * ((100vw - 320px) / (1600 - 320))); 
 }
 
 /* Desktop */
 @media all and (min-width:768px) { 
 	.flex-grid-three a.btn-solid,  
 	.flex-grid-three a.btn-ghost  { 
-		padding: 12px 24px 12px 24px;
+		padding: 10px 24px 10px 24px;
 		margin-bottom:20px
 	}
 }
